@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mi Proyecto Vue - Sistema de Productos Agrícolas
 
 Este es un proyecto Vue 3 mejorado con diseño profesional basado en Figma.
@@ -168,3 +169,6 @@ npm install
 **¡Listo para usar!** 🎉
 
 Si tienes dudas, revisa el código - está comentado y es fácil de entender.
+=======
+# Frontend-AgriLink
+>>>>>>> d288ddec0045ffc0da71392567ff3225cc6b0962
