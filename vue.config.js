@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/Frontend-AgriLink/"
+  publicPath: '/Frontend-AgriLink/'
 }
