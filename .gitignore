@@ -1,1 +1,22 @@
-node_modules
+# Dependencias
+node_modules/
+npm-debug.log*
+
+# Archivos de compilación
+dist/
+
+# Archivos locales de entorno
+.env
+.env.local
+
+# Archivos de editor
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+
+# Logs y caché
+logs/
+*.log
+.cache/
