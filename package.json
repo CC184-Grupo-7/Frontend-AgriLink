@@ -5,15 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "preview": "npm run build && npx http-server dist -p 8081 -o",
-    "deploy": "npm run build && gh-pages -d dist"
+    "preview": "npm run build && npx http-server dist -p 8081 -o"
   },
   "dependencies": {
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },
   "devDependencies": {
-    "@vue/cli-service": "~5.0.0",
-    "gh-pages": "^6.0.0"
+    "@vue/cli-service": "~5.0.0"
   }
-} 
+}

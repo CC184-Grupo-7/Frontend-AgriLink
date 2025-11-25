@@ -1,11 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
 import Productos from '../views/Productos.vue'
 import Perfil from '../views/Perfil.vue'
 import PerfilComprador from '../views/PerfilComprador.vue'
 import Compra from '../views/Compra.vue'
-import createWebHashHistory from 'vue-router'
 
 const routes = [
   {
@@ -46,8 +45,8 @@ const routes = [
 
 const router = createRouter({
   history: process.env.NODE_ENV === 'production' 
-    ? createWebHashHistory(process.env.BASE_URL)  
-    : createWebHistory(process.env.BASE_URL),     
+    ? createWebHashHistory(process.env.BASE_URL)
+    : createWebHistory(process.env.BASE_URL),
   routes
 })
 
