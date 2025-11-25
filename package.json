@@ -1,7 +1,7 @@
 {
   "name": "mi-proyecto-vue",
   "version": "1.0.0",
-  "homepage": "https://CC184-Grupo-7.github.io/Frontend-AgriLink",
+  "homepage": "https://cc184-grupo-7.github.io/Frontend-AgriLink",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
